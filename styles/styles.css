@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css?family=Be+Vietnam:300,400,500,700&display=swap');
+
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Be Vietnam', sans-serif;
+}
+
+h1,
+h4 {
+    color: hsl(228, 39%, 23%);
+}
+
+p {
+    font-weight: 300;
+}
+
+/* Header Section */
+
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.nav-bar img {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 150px;
+}
+
+.nav-links {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-item {
+    margin: auto 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #000;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: hsl(227, 12%, 61%);
+}
+
+.nav-btn {
+    background-color: hsl(12, 88%, 59%);
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 100px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 700;
+    box-shadow: 0px 5px 10px 0px hsl(12, 88%, 80%);
+}
+
+.nav-btn:hover {
+    background-color: hsl(12, 84%, 63%);
+}
+
+/* Info Section */
+
+.info {
+    display: flex;
+    margin-top: 80px;
+    margin-left: 150px;
+    margin-right: 100px;
+}
+
+.left-info h1 {
+    font-size: 3rem;
+    width: 60%;
+}
+
+.left-info p {
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+/* Extra Info Section */
+
+.extra-info {
+    display: flex;
+    margin-left: 150px;
+    margin-right: 100px;
+}
+
+.left-extra-info h1 {
+    font-size: 2.5rem;
+}
+
+.left-extra-info p {
+    width: 55%;
+}
+
+.flex-heading {
+    display: flex;
+    margin-top: 33.2px;
+}
+
+.flex-heading h4 {
+    margin: auto 14px;
+}
+
+.right-extra-info p {
+    width: 50%;
+    margin-left: 80px;
+}
+
+.right-extra-info a {
+    background-color: hsl(12, 88%, 59%);
+    margin-top: auto;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    cursor: default;
+}
+
+/* Testimonial Section */
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.testimonial h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 80px;
+}
+
+.test-card {
+    background-color: hsl(0, 0%, 97%);
+    height: 300px;
+}
+
+.test-card img {
+    width: 15%;
+}
+
+.test-card p {
+    width: 80%;
+    margin: auto;
+}
+
+.swiper-pagination {
+    display: none;
+}
+
+.testimonial button {
+    margin-top: 30px;
+    margin-left: 48%;
+    margin-bottom: 100px;
+}
+
+/* Simplify Section */
+.simplify {
+    background-color: hsl(12, 88%, 59%);
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.simplify h2 {
+    color: #fff;
+    font-size: 2rem;
+    width: 30%;
+    margin-left: 50px;
+}
+
+.simplify-btn {
+    background-color: #fff;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 100px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    color: hsl(12, 88%, 59%);
+    font-weight: 700;
+}
+
+.simplify-btn:hover {
+    color: hsl(12, 86%, 72%);
+}
+
+/* Footer Section */
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: hsl(233, 12%, 13%);
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+
+.social-icons {
+    margin-top: 100px;
+}
+
+.social-icon {
+    margin: auto 5px;
+    cursor: pointer;
+}
+
+.links {
+    display: flex;
+}
+
+.footer-links {
+    list-style-type: none;
+}
+
+.left-links li {
+    margin: 15px auto;
+}
+
+.left-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.right-links li {
+    margin: 15px auto;
+}
+
+.right-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer a:hover {
+    color: hsl(12, 88%, 59%);
+}
+
+.email-input input {
+    padding: 10px 10px;
+    border-radius: 50px;
+    border: none;
+    margin-right: 10px;
+}
+
+.email-input button {
+    box-shadow: none;
+}
+
+/* Phone Query */
+@media(max-width: 375px) {
+
+    /* Navbar Section */
+    .link-items {
+        display: none;
+    }
+
+    .nav-bar button {
+        display: none;
+    }
+
+    .nav-bar img {
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+
+    /* Info Section */
+    .info {
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        max-width: 375px;
+        margin: auto;
+    }
+
+    .right-info {
+        grid-row: 1/2;
+        margin: 20px auto;
+        padding: 0;
+    }
+
+    .right-info img {
+        width: 100%;
+    }
+
+    .left-info {
+        grid-row: 2/3;
+    }
+
+    .left-info h1 {
+        font-size: 2rem;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .left-info p {
+        margin: 20px auto;
+        text-align: center;
+        width: 80%;
+    }
+
+    .left-info button {
+        margin-left: 120px;
+    }
+
+    /* Extra Info */
+    .extra-info {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .left-extra-info h1 {
+        width: 70%;
+        margin: auto;
+        font-size: 2rem;
+    }
+
+    .left-extra-info p {
+        margin: 20px auto;
+        width: 95%;
+    }
+
+    .flex-heading {
+        background-color: hsl(13, 100%, 96%);
+        margin-left: 20px;
+    }
+
+    .right-extra-info p {
+        width: 95%;
+        margin: 20px auto;
+    }
+
+    /* Testimonial Section */
+    .testimonial h1 {
+        font-size: 2rem;
+        margin-bottom: 30px;
+    }
+
+    .swiper-pagination {
+        display: unset;
+    }
+
+    .testimonial button {
+        margin: 20px 130px;
+        white-space: nowrap;
+    }
+
+    /* Simplify Section */
+    .simplify {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .simplify h2 {
+        text-align: center;
+        width: 90%;
+        margin: auto;
+    }
+
+    .simplify-btn {
+        margin: 20px auto;
+    }
+
+    /* Footer Section */
+
+    .footer {
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 375px;
+        max-height: 375px;
+        margin: auto;
+    }
+
+    .email-input {
+        grid-row: 1/2;
+        grid-column: 1/3;
+        width: 100%;
+    }
+
+    .email-input input {
+        padding: 10px 30px;
+        margin-left: 30px;
+    }
+
+    .email-input button {
+        margin: 0;
+    }
+
+    .left-links {
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+
+    .right-links {
+        grid-row: 2/3;
+        grid-column: 2/3;
+    }
+
+    .social-icons {
+        grid-column: 1/3;
+        margin: 30px auto;
+        width: 100%;
+
+    }
+
+    .social-icon {
+        width: 10%;
+        margin-left: 20px;
+        padding-right: 5px;
+
+    }
+}
